@@ -3,8 +3,3 @@ def search(list, query):
         if query == list[i]:
             return i
     return None
-
-if __name__ == "__main__":
-    list = [20, 30, 25, 14, 25]
-    print(search(list, 25))
-    print(search(list, 2))
