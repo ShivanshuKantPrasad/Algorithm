@@ -5,6 +5,3 @@ def inversion(list: list):
             if list[i] > list[j]:
                 res += 1
     return res
-
-list = [2, 3, 8, 6, 1]
-print(inversion(list))

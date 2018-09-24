@@ -26,6 +26,3 @@ def MergeInversion(list):
 
     else:
         return 0
-
-list = [2, 3, 8, 6, 1]
-print(MergeInversion(list), list)
