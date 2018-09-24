@@ -1,4 +1,4 @@
-import MaximumSubarrayBrute, RecursiveMaximumSubarray
+import MaximumSubarrayBrute, RecursiveMaximumSubarray, LinearMaximumSubarray
 import unittest
 
 class MaximumSubarrayTest(unittest.TestCase):
@@ -13,6 +13,9 @@ class MaximumSubarrayTest(unittest.TestCase):
 
     def testMaximumSubarrayRecursive(self):
         self.MaximumSubarrayTest(RecursiveMaximumSubarray.MaximumSubarray)
+
+    def testLinearMaximumSubarray(self):
+        self.MaximumSubarrayTest(LinearMaximumSubarray.MaximumSubarray)
 
 if __name__ == '__main__':
     unittest.main()
