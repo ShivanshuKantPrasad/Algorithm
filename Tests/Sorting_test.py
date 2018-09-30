@@ -1,5 +1,6 @@
-from Sorting import BubbleSort, Insertion, MergeSort
+from Sorting import BubbleSort, Insertion, MergeSort, BogoSort
 import unittest
+
 
 class SortingTest(unittest.TestCase):
 
@@ -17,6 +18,10 @@ class SortingTest(unittest.TestCase):
 
     def testMergeSort(self):
         self.checkSortingMethod(MergeSort.MergeSort)
+
+    def testBogoSort(self):
+        self.checkSortingMethod(BogoSort.BogoSort)
+
 
 if __name__ == '__main__':
     unittest.main()
