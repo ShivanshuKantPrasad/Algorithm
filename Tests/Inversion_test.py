@@ -1,5 +1,6 @@
-import Inversion, MergeInversion
+from Inversion import Inversion, MergeInversion
 import unittest
+
 
 class InversionTest(unittest.TestCase):
 
@@ -13,6 +14,7 @@ class InversionTest(unittest.TestCase):
 
     def testMergeInversion(self):
         self.InversionTest(MergeInversion.MergeInversion)
+
 
 if __name__ == "__main__":
     unittest.main()
